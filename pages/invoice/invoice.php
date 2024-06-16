@@ -8,16 +8,16 @@
     <div class="container-fluid page-body-wrapper">
       <?php include '../sidebar.php'; ?>
       <div class="main-panel">
-        <div class="content-wrapper" style="background-color:#bddcff;">
+        <div class="content-wrapper" style="background-color:#E4E4E4;">
           <div class="row">
             <div class="col-md-12 grid-margin">
               <div class="d-flex justify-content-between align-items-center">
                   <div>
                       <button type="button" class="btn btn-primary btn-icon-text btn-rounded btn-sm" data-toggle="modal" data-target="#add-Invoice">
-                          <i class="ti-plus btn-icon-prepend"></i>Add Invoice
-                      </button> 
+                          <i class="ti-plus btn-icon-prepend"></i>Tambah Faktur
+                      </button>
                     </div>
-                  <div>       
+                  <div>
                 </div>
               </div>
             </div>
@@ -26,25 +26,25 @@
             <div class="col-md-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <p class="card-title text-md-center text-xl-left">Invoice</p>
+                  <p class="card-title text-md-center text-xl-left">Faktur</p>
                   <div class=" flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
                       <table class="table table-hover" id="table_invoice">
                           <thead style="font-size:10px">
                               <tr>
-                                  <th>Order ID</th>
-                                  <th>Encoded By</th>
-                                  <th>Total Amount</th>
-                                  <th>Discount Price</th>
-                                  <th>Tendered</th>
-                                  <th>Change</th>
-                                  <th>Date Recorded</th>
+                              <th>ID Pesanan</th>
+<th>Dikodekan Oleh</th>
+<th>Total Jumlah</th>
+<th>Harga Diskon</th>
+<th>Dibayar</th>
+<th>Kembalian</th>
+<th>Tanggal Dicatat</th>
                                   <th></th>
                               </tr>
                           </thead>
                           <tbody>
                         </tbody>
                       </table>
-                  </div>  
+                  </div>
                 </div>
               </div>
             </div>

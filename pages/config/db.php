@@ -19,4 +19,4 @@
 		global $dbConn;
 		mysqli_close($dbConn);
 }
-	
+
